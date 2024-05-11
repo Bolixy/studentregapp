@@ -1,0 +1,90 @@
+*, ::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:green;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: url("./unilag\ logo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.popup{
+background-color:#ffffffff;
+width: 380px;
+height: 250px;
+padding-top: 50px;
+position: absolute;
+transform:translate(-50%, -50%);
+left:50%;
+top: 50%;
+display: none;
+}
+.popup button
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background-color: transparent;
+    font-size: 20px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+    ;
+}
+.link-one{
+    display:  block;
+   position: relative;
+    width: 120px;
+    padding: 5px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.para{
+    text-align: center;
+    margin-top: 10px;
+}
+.link-two{
+    display: block;
+    position: relative;
+    width: 120px;
+        padding: 5px;
+        background-color: green;
+        text-decoration: none;
+        color: white;
+}
+.links{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 20px;
+    position: relative;
+}
+
+.owner{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
